@@ -15,6 +15,22 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      // *************************** SHARED MODULE ***************************
+      "@shared/modules/*": ["./src/app/shared/*.module.ts"],
+      "@shared/components/*": ["./src/app/shared/components/*.component.ts"],
+
+      // **************************** LOGIN MODULE ****************************
+      "@login/components/*": [
+        "./src/app/modules/login/*.component.ts",
+        "./src/app/modules/login/components/login-form/*.component.ts",
+        "./src/app/modules/login/components/project-generator/*.component.ts",
+        "./src/app/modules/login/components/team-invitation/*.component.ts",
+      ],
+      "@login/services/*": [
+        "./src/app/module/login/services/*.service.ts"
+      ]
+    }
   }
 }
