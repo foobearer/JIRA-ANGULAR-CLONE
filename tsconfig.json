@@ -36,6 +36,21 @@
       ],
       "@login/services/*": [
         "./src/app/module/login/services/*.service.ts"
+      ],
+      // **************************** BOARDS MODULE ****************************
+      "@boards/components/*": [
+        "./src/app/modules/boards/components/*.components.ts",
+        "./src/app/modules/boards/components/active-sprint/*.components.ts",
+        "./src/app/modules/boards/components/backlog/*.components.ts"
+      ],
+      "@boards/shared/components/*": [
+        "./src/app/modules/boards/shared/components/boards-header/*.components.ts"
+      ],
+      "@boards/constants/*":[
+        "./src/app/modules/boards/models/constants/*.ts"
+      ],
+      "@boards/interfaces/*":[
+        "./src/app/modules/boards/models/interfaces/*.ts"
       ]
     }
   }
