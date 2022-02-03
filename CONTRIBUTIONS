@@ -1,0 +1,24 @@
+GUIDELINES FOR CONTRIBUTORS
+	
+(JIRA-ANGULAR-PROJECT welcomes contributors from the community.)
+
+
+1. Email me you email address so I can add you to Slack group.
+2. Select a task from TO DO list.
+3. Create a branch from main branch following this format. 'feature/TASK_NAME'
+4. Start developing the feature.
+5. If the you're done with the task, create a pull request to main branch.
+
+
+----------------TO DO:----------------
+	
+	MODULES
+	
+		[ ] BOARDS 
+				[ ] BACKLOG PAGE
+				[ ] ACTIVE-SPRINT PAGE
+				
+		[ ] LOGIN
+				[ ] LOGIN FORM
+				[ ] GENERATE PROJECT
+				[ ] INVITE TEAMS
