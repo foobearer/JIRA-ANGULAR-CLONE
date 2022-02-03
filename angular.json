@@ -30,6 +30,7 @@
                         "styles": [
                             "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
                             "src/styles.scss",
+                            "./src/assets/_app.scss",
                             "src/assets/styles/themes/_blue.scss"
                         ],
                         "scripts": []

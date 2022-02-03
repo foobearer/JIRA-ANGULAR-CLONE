@@ -28,6 +28,12 @@
         "./src/app/modules/login/components/project-generator/*.component.ts",
         "./src/app/modules/login/components/team-invitation/*.component.ts",
       ],
+      "@login/constants/*": [
+        "./src/app/modules/login/models/constants/*.ts",
+      ],
+      "@login/interfaces/*": [
+        "./src/app/modules/login/models/interfaces/*.ts"
+      ],
       "@login/services/*": [
         "./src/app/module/login/services/*.service.ts"
       ]
