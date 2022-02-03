@@ -23,7 +23,7 @@ export class LoginFormComponent implements OnInit {
   }
 
   login() {
-    this.router.navigate([LOGIN_PATHS.PROJECT_GENERATOR]);
+    this.router.navigate([LOGIN_PATHS.BOARDS.BACKLOG]);
   }
 
 }
