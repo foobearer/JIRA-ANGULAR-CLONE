@@ -1,2 +1,2 @@
 # JIRA-ANGULAR-CLONE
-A project to recreate JIRA using Angular
+JIRA-ANGULAR-CLONE is an open source project intended to unite Angular developers to recreate (JIRA) using Angular - typescript.
