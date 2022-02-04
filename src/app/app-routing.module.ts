@@ -13,7 +13,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-
-
- // { path: 'backlog', loadChildren: () => import('./modules/backlog/backlog.module').then(m => m.BacklogModule) },
-  // { path: 'active-sprint', loadChildren: () => import('./modules/boards/components/active-sprint/active-sprint.module').then(m => m.ActiveSprintModule) },

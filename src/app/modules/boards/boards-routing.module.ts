@@ -9,7 +9,11 @@ const routes: Routes = [
   },
   {
     path: 'backlog',
-    loadChildren: () => import('./components/backlog/backlog.module').then((m) => m.BacklogModule)
+    loadChildren: () => import('./views/backlog/backlog.module').then((m) => m.BacklogModule)
+  },
+  {
+    path: 'active-sprint',
+    loadChildren: () => import('./views/active-sprint/active-sprint-routing.module').then((m) => m.ActiveSprintRoutingModule)
   }
 ];
 
